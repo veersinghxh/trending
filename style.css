@@ -6,7 +6,7 @@ html body{
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
          overflow-x: hidden;
-         height: 150vh;
+         height: 158vh;
          }
     .wrapper{
         max-height:315px;
@@ -81,6 +81,9 @@ html body{
           position: relative;
           top: 200px;
       }
+      h3{
+          color: black;
+      }
         
     
       @media (max-width: 768px){
@@ -126,7 +129,16 @@ html body{
                 
                    
                }
+        .f{
+            display: none;
+        }
         
+        .call{
+            font-size: 20px;
+        }
+        .ok{
+            display: none;
+        }
     }
     
     @media (min-width: 1024px){
@@ -143,8 +155,27 @@ html body{
                 font-size: 40px;
                    
                }
-        
-        
+        .f{
+            font-size:50px;
+            
+        }
+        .z{
+             bottom: 35px;
+            position: relative;
+            
+            
+            
+        }
+        .e{
+            position: relative;
+            top: 34px;
+        }
+        .f{
+            font-size: 60px;
+        }
+          .k{
+              font-size: 60px;
+          }
         
         
     }
@@ -175,3 +206,6 @@ html body{
            
            
        
+
+
+                     
